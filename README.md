@@ -44,3 +44,9 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         modified:   posts/urls.py
         modified:   posts/views.py
         new file:   templates/posts/index.html
+
+
+#### 06. Loding Static Files
+
+        modified:   README.md
+        modified:   templates/posts/index.html
