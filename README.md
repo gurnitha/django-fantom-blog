@@ -99,6 +99,14 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         modified:   templates/posts/index.html
 
 
+#### 13. Displaying Our Specific Post
+
+        modified:   templates/posts/index.html
+
+        NOTE: This must be with detail.html
+
+        
+
 
 
 
