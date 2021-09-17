@@ -64,6 +64,15 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         modified:   README.md
 
 
+#### 09. Register the app, creating Post model, install pillow, run migrations and register it to admin
+
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   posts/admin.py
+        new file:   posts/migrations/0001_initial.py
+        modified:   posts/models.py
+
+
 
 
 
