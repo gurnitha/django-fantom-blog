@@ -1,13 +1,13 @@
 # posts/views.py
 
 # Django modules
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.views.generic import (
 		TemplateView, ListView,
 		DetailView)
 
 # Loclas
-from .models import Post 
+from .models import Post, Category 
 
 # Create your views here.
 
@@ -30,4 +30,19 @@ class PostDetail(DetailView):
 
     def get_context_data(self, **kwargs):
         context = super(PostDetail, self).get_context_data(**kwargs)
+        return context
+
+
+# Class:CategoryDetail
+class PostsByCategory(ListView):
+    model = Post
+    template_name = 'posts/posts_by_category.html'
+    context_object_name = 'posts'
+
+    def get_queryset(self):
+        self.category = get_object_or_404(Category,pk=self.kwargs['pk'])
+        return Post.objects.filter(category=self.category).order_by('-id')
+
+    def get_context_data(self, **kwargs):
+        context = super(PostsByCategory, self).get_context_data(**kwargs)
         return context

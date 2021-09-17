@@ -1,6 +1,7 @@
 # django-fantom-blog
 This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django Apps on Udemy: https://www.udemy.com/course/django-30-masterclass-learn-how-to-create-django-apps/
 
+https://github.com/gurnitha/django-fantom-blog
 
 #### 01. What We Are Going To Build?
         Pass 
@@ -151,8 +152,13 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         modified:   templates/posts/sight_side.html
 
 
+#### 18. Creating PostsByCategory View, Templates and Urls
 
-
+        modified:   README.md
+        modified:   posts/urls.py
+        modified:   posts/views.py
+        new file:   templates/posts/posts_by_category.html
+        modified:   templates/posts/sight_side.html
 
 
 
