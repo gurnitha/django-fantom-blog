@@ -19,6 +19,11 @@ class Category(models.Model):
     def __str__(self):
         return self.title
 
+    # Counting number of posts in each category
+    def post_count(self):
+        return self.posts.all().count() # posts comes from related_name in Post model
+
+
 
 # MODEL:Post
 class Post(models.Model):
@@ -28,7 +33,7 @@ class Post(models.Model):
     image = models.ImageField(blank=True,null=True,upload_to='uploads/')
     user = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE)
     slug = models.SlugField(editable=False)
-    category = models.ForeignKey(Category,on_delete=models.CASCADE)
+    category = models.ForeignKey(Category,on_delete=models.CASCADE, related_name='posts')
 
     def save(self, *args,**kwargs):
         self.slug = slugify(self.title)

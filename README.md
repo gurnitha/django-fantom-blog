@@ -144,7 +144,11 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         modified:   templates/posts/sight_side.html
 
 
+#### 17.2 Count number of posts in each category
 
+        modified:   README.md
+        modified:   posts/models.py
+        modified:   templates/posts/sight_side.html
 
 
 
