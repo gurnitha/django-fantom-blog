@@ -82,7 +82,12 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         new file:   media/uploads/blog-4.jpg
 
 
+### 11. Using Generic Class Based View : ListView
 
+        modified:   README.md
+        modified:   posts/urls.py
+        modified:   posts/views.py
+        modified:   templates/posts/index.html
 
 
 
