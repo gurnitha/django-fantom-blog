@@ -73,6 +73,13 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         modified:   posts/models.py
 
 
+#### 10. Creating Posts For Our Projects
+
+        modified:   README.md
+        new file:   media/uploads/blog-1.jpg
+        new file:   media/uploads/blog-2.jpg
+        new file:   media/uploads/blog-3.jpg
+        new file:   media/uploads/blog-4.jpg
 
 
 
