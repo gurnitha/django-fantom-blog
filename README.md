@@ -105,8 +105,13 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
 
         NOTE: This must be with detail.html
 
-        
 
+#### 14. How To Use Slug Field to save post title as slug and use it in the url
+     
+        modified:   README.md
+        new file:   posts/migrations/0002_post_slug.py
+        modified:   posts/models.py
+        modified:   posts/urls.py
 
 
 

@@ -11,5 +11,5 @@ from . import views
 
 urlpatterns = [
 	path('', views.IndexView.as_view(), name='index'),
-    path('detail/<int:pk>/',views.PostDetail.as_view(),name="detail"),    
+    path('detail/<int:pk>/<slug:slug>/',views.PostDetail.as_view(),name="detail"),    
 ] 
