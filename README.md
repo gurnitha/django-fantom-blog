@@ -13,4 +13,13 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
-	
+
+#### 03. Creating Templates, Static, Media folders and paths
+
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   static/css/_button.css
+        ...
+        new file:   static/css/_button.css.map
+        new file:   static/css/_feature.css
