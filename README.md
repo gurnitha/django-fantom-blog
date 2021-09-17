@@ -114,6 +114,19 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         modified:   posts/urls.py
 
 
+#### 15. How To Create Category Model
+
+        modified:   README.md
+        new file:   media/uploads/blog-1_lq1zkqx.jpg
+        new file:   media/uploads/blog-2_SIH9eYd.jpg
+        new file:   media/uploads/blog-3_6wMFIab.jpg
+        new file:   media/uploads/blog-3_94w11hP.jpg
+        new file:   media/uploads/blog-4_SZ9lNSP.jpg
+        modified:   posts/admin.py
+        modified:   posts/migrations/0001_initial.py
+        deleted:    posts/migrations/0002_post_slug.py
+        modified:   posts/models.py
+
 
 
 
