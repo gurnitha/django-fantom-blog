@@ -90,6 +90,13 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         modified:   templates/posts/index.html
 
 
+#### 12. Using Generic Class Based View : DetailView
+
+        modified:   README.md
+        modified:   posts/urls.py
+        modified:   posts/views.py
+        new file:   templates/posts/detail.html
+        modified:   templates/posts/index.html
 
 
 
