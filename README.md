@@ -23,3 +23,16 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         ...
         new file:   static/css/_button.css.map
         new file:   static/css/_feature.css
+
+
+#### 04. Creating 'posts' App and urls
+
+        modified:   config/urls.py
+        new file:   posts/__init__.py
+        new file:   posts/admin.py
+        new file:   posts/apps.py
+        new file:   posts/migrations/__init__.py
+        new file:   posts/models.py
+        new file:   posts/tests.py
+        new file:   posts/urls.py
+        new file:   posts/views.py
