@@ -161,8 +161,11 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/posts/sight_side.html
 
 
+#### 19.1 Display List of Posts By Category
 
-
+        modified:   README.md
+        modified:   posts/views.py
+        modified:   templates/posts/posts_by_category.html
 
 
 

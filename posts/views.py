@@ -37,7 +37,7 @@ class PostDetail(DetailView):
 class PostsByCategory(ListView):
     model = Post
     template_name = 'posts/posts_by_category.html'
-    context_object_name = 'posts'
+    context_object_name = 'postsbycategory'
 
     def get_queryset(self):
         self.category = get_object_or_404(Category,pk=self.kwargs['pk'])
