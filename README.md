@@ -50,3 +50,10 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
 
         modified:   README.md
         modified:   templates/posts/index.html
+
+
+#### 07. Creating Base Html
+
+        modified:   README.md
+        new file:   templates/base.html
+        modified:   templates/posts/index.html
