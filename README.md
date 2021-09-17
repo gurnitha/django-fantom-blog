@@ -136,6 +136,13 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         new file:   templates/posts/sight_side.html
 
 
+### 17.1 Create Custom Tags and display categories
+
+        modified:   README.md
+        new file:   posts/templatetags/__init__.py
+        new file:   posts/templatetags/cutom_tags.py
+        modified:   templates/posts/sight_side.html
+
 
 
 
