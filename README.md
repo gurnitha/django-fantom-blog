@@ -36,3 +36,11 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         new file:   posts/tests.py
         new file:   posts/urls.py
         new file:   posts/views.py
+
+
+#### 05. Creating home page: templates, views and urls
+
+        modified:   README.md
+        modified:   posts/urls.py
+        modified:   posts/views.py
+        new file:   templates/posts/index.html
