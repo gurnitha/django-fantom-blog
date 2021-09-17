@@ -168,7 +168,11 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/posts/posts_by_category.html
 
 
+#### 19.2 Display Category title
 
+        modified:   README.md
+        modified:   posts/views.py
+        modified:   templates/posts/posts_by_category.html
 
 
 

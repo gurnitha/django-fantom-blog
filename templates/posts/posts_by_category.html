@@ -12,8 +12,8 @@
 			<div class="banner_content text-center">
 				<h2>Category</h2>
 				<div class="page_link">
-					<a href="index.html">Home</a>
-					<a href="category.html">Category</a>
+					<a href="{% url 'index' %}">Home</a>
+					<a href="#">{{category.title}}</a>
 				</div>
 			</div>
 		</div>
@@ -34,7 +34,7 @@
                     	</div>
                     	<div class="blog_text">
 							<div class="blog_text_inner">
-								<a class="cat" href="#">Gadgets</a>
+								<a class="cat" href="#">{{category.title}}</a>
 								<a href="#"><h4>{{postbycategory.title}}</h4></a>
 								<p>{{postbycategory.content}}</p>
 								<div class="date">

@@ -45,4 +45,6 @@ class PostsByCategory(ListView):
 
     def get_context_data(self, **kwargs):
         context = super(PostsByCategory, self).get_context_data(**kwargs)
+        self.category = get_object_or_404(Category,pk=self.kwargs['pk'])
+        context['category'] = self.category
         return context
