@@ -128,6 +128,16 @@ This is my exercise based on Django 3.0 MasterClass - Learn How To Create Django
         modified:   posts/models.py
 
 
+#### 16. How To Create Right Side Html File with include to keep DRY
+
+        modified:   README.md
+        modified:   templates/posts/detail.html
+        modified:   templates/posts/index.html
+        new file:   templates/posts/sight_side.html
+
+
+
+
 
 
 
