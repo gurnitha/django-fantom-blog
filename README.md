@@ -277,6 +277,10 @@ https://github.com/gurnitha/django-fantom-blog
         new file:   users/urls.py
 
 
+#### 24.1 User form - Create User Creation Form
+
+        modified:   README.md
+        new file:   users/forms.py
 
 
 
