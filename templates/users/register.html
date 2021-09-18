@@ -1,11 +1,95 @@
 <!-- templates/users/register.html -->
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>User register</title>
-</head>
-<body>
-	<h1>User register</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+    	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+		<div class="container">
+			<div class="banner_content text-center">
+				<h2>Register</h2>
+				<div class="page_link">
+					<a href="{% url 'index' %}">Home</a>
+				</div>
+			</div>
+		</div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+
+<!--================Blog Area =================-->
+<section class="blog_area p_120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+            	<!-- Register: Header -->
+            	<h3 
+            		class="mb-30 title_color"
+            		style="text-align:center">Register
+            	</h3>
+            	<!-- Register: Form -->
+            	<form method="post">
+            		{% csrf_token %}
+
+					<div class="mt-10">
+						<input 
+							type="text" 
+							name="username" 
+							placeholder="User Name" 
+							onfocus="this.placeholder = ''" 
+							onblur="this.placeholder = 'User Name'" 
+							required="" 
+							class="single-input">
+					</div>
+
+					<div class="mt-10">
+						<input 
+							type="text" 
+							name="email" 
+							placeholder="Email" 
+							onfocus="this.placeholder = ''" 
+							onblur="this.placeholder = 'Email'" 
+							required="" 
+							class="single-input">
+					</div>
+
+					<div class="mt-10">
+						<input 
+							type="password" 
+							name="password1" 
+							placeholder="password" 
+							onfocus="this.placeholder = ''" 
+							onblur="this.placeholder = 'Password'" 
+							required="" 
+							class="single-input">
+					</div>
+
+					<div class="mt-10">
+						<input 
+							type="password" 
+							name="password2" 
+							placeholder="Confirm password" 
+							onfocus="this.placeholder = ''" 
+							onblur="this.placeholder = 'Confirm password'" 
+							required="" 
+							class="single-input">
+					</div><br>
+	            	<input
+	            		style="float: right;" 
+	            		type="submit" 
+	            		name="" 
+	            		class="genric-btn info">
+            	</form>
+
+            </div>
+            <!-- Aside -->
+            {% include '../posts/sight_side.html' %}
+        </div>
+    </div>
+</section>
+<!--================Blog Area =================-->
+
+{% endblock content %}

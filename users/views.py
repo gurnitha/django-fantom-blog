@@ -11,6 +11,7 @@ from users.forms import RegisterForm
 
 # Class:RegisterView
 class RegisterView(CreateView):
-    form_class = RegisterForm
-    template_name = 'users/register.html'
-    success_url = '/'
+    # Note: order of 1,2, and 3 is metter
+    template_name = 'users/register.html' #1
+    form_class = RegisterForm #2
+    success_url = '/' #3

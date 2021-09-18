@@ -291,6 +291,11 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   users/views.py
 
 
+#### 24.3 User form - Register new user
+
+        modified:   README.md
+        modified:   templates/users/register.html
+        modified:   users/views.py
 
 
 
