@@ -16,7 +16,7 @@
 						<div class="post_text">
 							<!-- Tag -->
 							{% for tag in slider_post.tag.all %}
-							<a class="cat" href="">{{ tag.title }}</a>
+							<a class="cat" href="{% url 'posts_by_tag' pk=tag.id slug=tag.slug  %}">{{ tag.title }}</a>
 							{% endfor %}
 
 							<a href="{% url 'detail' pk=slider_post.pk slug=slider_post.slug %}"><h4>{{slider_post.title}}</h4></a>

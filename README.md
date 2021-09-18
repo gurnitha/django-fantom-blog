@@ -251,7 +251,10 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/posts/index.html
 
 
+#### 21.5 Slider posts - Adding urls to the tags in each post
 
+        modified:   README.md
+        modified:   templates/posts/index.html
 
 
 
