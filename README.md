@@ -191,6 +191,12 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/posts/sight_side.html
 
 
+#### 20.3 Tags - Create Templates, Views, Urls
+
+        modified:   README.md
+        modified:   posts/urls.py
+        modified:   posts/views.py
+        new file:   templates/posts/posts_by_tag.html
 
 
 
