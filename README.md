@@ -283,6 +283,12 @@ https://github.com/gurnitha/django-fantom-blog
         new file:   users/forms.py
 
 
+#### 24.2 User form - Create RegisterView Views, Template and Urls
+
+        modified:   README.md
+        new file:   templates/users/register.html
+        modified:   users/urls.py
+        modified:   users/views.py
 
 
 
