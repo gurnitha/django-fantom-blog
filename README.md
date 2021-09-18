@@ -298,6 +298,12 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   users/views.py
 
 
+#### 24.4 User form - Catching the form error
+
+        modified:   README.md
+        modified:   templates/users/register.html
+
+
 
 
 

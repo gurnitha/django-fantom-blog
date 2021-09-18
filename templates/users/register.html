@@ -33,7 +33,21 @@
             	<!-- Register: Form -->
             	<form method="post">
             		{% csrf_token %}
-
+					<!-- Show error from the form -->
+                    {% if form.errors %}
+                    <div id="errors">
+                        <div class="inner">
+                            <p style="color:red">Please correct the errors below</p>
+                            <ul>
+                                {% for field in form %}
+                                {% if field.errors %}
+                                <li>{{ form.label }} : {{ field.errors|striptags }}</li>
+                                {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
 					<div class="mt-10">
 						<input 
 							type="text" 
