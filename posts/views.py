@@ -57,12 +57,12 @@ class PostsByTag(ListView):
     template_name = 'posts/posts_by_tag.html'
 
     def get_queryset(self):
-        pass
-        # self.tag = get_object_or_404(Tag,slug=self.kwargs['slug'])
-        # return Post.objects.filter(tag=self.tag).order_by('id')
+        self.tag = get_object_or_404(Tag,slug=self.kwargs['slug'])
+        return Post.objects.filter(tag=self.tag).order_by('id')
 
-    # def get_context_data(self,**kwargs):
-    #     context = super(TagDetail, self).get_context_data(**kwargs)
-    #     self.tag = get_object_or_404(Tag,slug=self.kwargs['slug'])
-    #     context['tag'] = self.tag
-    #     return context
+    def get_context_data(self,**kwargs):
+        context = super(PostsByTag, self).get_context_data(**kwargs)
+        self.tag = get_object_or_404(Tag,slug=self.kwargs['slug'])
+        context['tag'] = self.tag
+        return context
+

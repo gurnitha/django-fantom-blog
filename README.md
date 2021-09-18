@@ -199,6 +199,16 @@ https://github.com/gurnitha/django-fantom-blog
         new file:   templates/posts/posts_by_tag.html
 
 
+#### 20.4 Tags - Display all posts by tag (posts-by-tag)
+
+        modified:   README.md
+        modified:   posts/urls.py
+        modified:   posts/views.py
+        modified:   templates/posts/posts_by_tag.html
+        modified:   templates/posts/sight_side.html
+
+
+
 
 
 
