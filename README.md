@@ -233,6 +233,10 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   posts/views.py
 
 
+#### 21.2 Slider posts - Display slider_post
+
+        modified:   README.md
+        modified:   templates/posts/index.html
 
 
 
