@@ -26,6 +26,18 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
+
+                {% if category %}
+                <p>For this 
+                    <span style="color:black; font-weight: 500;">{{category.title}}</span> category, 
+                    found <span style="color:black; font-weight: 500;">{{category.post_count}}</span> post(s)
+                </p>
+                {% else %}
+                <p>No post found for this 
+                    <span style="color:black; font-weight: 500;">{{category.title}}</span> category, 
+                </p>                
+                {% endif %}
+
                 <div class="blog_left_sidebar">
                 	{% for postbycategory in postsbycategory %}
                     <article class="blog_style1">

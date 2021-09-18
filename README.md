@@ -215,8 +215,10 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/posts/posts_by_tag.html
 
 
+#### 20.6 Category - Showing counted number of post(s) in a specific category
 
-
+        modified:   README.md
+        modified:   templates/posts/posts_by_category.html
 
 
 
