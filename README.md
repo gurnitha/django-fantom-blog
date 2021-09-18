@@ -257,8 +257,17 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/posts/index.html
 
 
+#### 22. Create users app and register it to settings.py
 
-
+        modified:   README.md
+        modified:   config/settings.py
+        new file:   users/__init__.py
+        new file:   users/admin.py
+        new file:   users/apps.py
+        new file:   users/migrations/__init__.py
+        new file:   users/models.py
+        new file:   users/tests.py
+        new file:   users/views.py
 
 
 
