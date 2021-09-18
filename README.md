@@ -270,6 +270,11 @@ https://github.com/gurnitha/django-fantom-blog
         new file:   users/views.py
 
 
+#### 23. Creating urls for users app and mapping it to the config's urls
+
+        modified:   README.md
+        modified:   config/urls.py
+        new file:   users/urls.py
 
 
 
