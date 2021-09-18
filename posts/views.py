@@ -7,7 +7,7 @@ from django.views.generic import (
 		DetailView)
 
 # Loclas
-from .models import Post, Category 
+from .models import Post, Category
 
 # Create your views here.
 
@@ -36,8 +36,8 @@ class PostDetail(DetailView):
 # Class:CategoryDetail
 class PostsByCategory(ListView):
     model = Post
-    template_name = 'posts/posts_by_category.html'
     context_object_name = 'postsbycategory'
+    template_name = 'posts/posts_by_category.html'
 
     def get_queryset(self):
         self.category = get_object_or_404(Category,pk=self.kwargs['pk'])
@@ -48,3 +48,4 @@ class PostsByCategory(ListView):
         self.category = get_object_or_404(Category,pk=self.kwargs['pk'])
         context['category'] = self.category
         return context
+

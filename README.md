@@ -175,7 +175,7 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/posts/posts_by_category.html
 
 
-#### 20. Create Tag Model with ManyToMany Relationship with Post model
+#### 20.1 Tag - Create Tag Model with ManyToMany Relationship with Post model
 
         modified:   README.md
         modified:   posts/admin.py
@@ -183,6 +183,12 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   posts/models.py
 
 
+#### 20.2 Tags - Create custom templatetag, and loop it
+
+        modified:   README.md
+        modified:   posts/templatetags/cutom_tags.py
+        modified:   posts/views.py
+        modified:   templates/posts/sight_side.html
 
 
 
