@@ -245,7 +245,10 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/posts/index.html 
 
 
+#### 21.4 Slider posts - Showing all tags associated to each post
 
+        modified:   README.md
+        modified:   templates/posts/index.html
 
 
 
