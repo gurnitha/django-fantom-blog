@@ -7,18 +7,18 @@
         <!--================Post Slider Area =================-->
         <section class="post_slider_area">
 			<div class="post_slider_inner owl-carousel">
-				{% for slider in slider_posts %}
+				{% for slider_post in slider_posts %}
 				<div class="item">
 					<div class="post_s_item">
 						<div class="post_img">
-							<img src="{{slider.image.url}}" alt="">
+							<img src="{{slider_post.image.url}}" alt="">
 						</div>
 						<div class="post_text">
 							<a class="cat" href="#">Gadgets</a>
-							<a href="single-blog.html"><h4>{{slider.title}}</h4></a>
-							<p>{{slider.content|truncatechars:100}}</p>
+							<a href="{% url 'detail' pk=slider_post.pk slug=slider_post.slug %}"><h4>{{slider_post.title}}</h4></a>
+							<p>{{slider_post.content|truncatechars:100}}</p>
 							<div class="date">
-								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>{{slider.publishing_date}}</a>
+								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>{{slider_post.publishing_date}}</a>
 								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
 							</div>
 						</div>

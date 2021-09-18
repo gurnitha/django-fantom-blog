@@ -239,6 +239,10 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/posts/index.html
 
 
+#### 21.3 Slider posts - Adding urls to show slider_post detail
+
+        modified:   README.md
+        modified:   templates/posts/index.html 
 
 
 
