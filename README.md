@@ -221,7 +221,16 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/posts/posts_by_category.html
 
 
+#### 21.1 Slider posts - Adding slider_post field to Post model, mingration and add some new posts
 
+        modified:   README.md
+        new file:   media/uploads/post-cat-1.jpg
+        new file:   media/uploads/post-cat-2.jpg
+        new file:   media/uploads/post-s-1.jpg
+        new file:   media/uploads/post-s-3.jpg
+        new file:   posts/migrations/0003_post_slider_post.py
+        modified:   posts/models.py
+        modified:   posts/views.py
 
 
 
