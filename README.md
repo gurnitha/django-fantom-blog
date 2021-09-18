@@ -208,6 +208,12 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/posts/sight_side.html
 
 
+#### 20.5 Tags - Showing counted number of post(s) in a specific tag
+
+        modified:   README.md
+        modified:   posts/models.py
+        modified:   templates/posts/posts_by_tag.html
+
 
 
 

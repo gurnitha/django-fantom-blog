@@ -28,7 +28,17 @@
 
         	<!-- Posts -->
             <div class="col-lg-8">
-                <div class="blog_left_sidebar">
+            	{% if tag %}
+            	<p>For this 
+            		<span style="color:black; font-weight: 500;">{{tag.title}}</span> tag, 
+            		found <span style="color:black; font-weight: 500;">{{tag.post_count}}</span> post(s)
+            	</p>
+            	{% else %}
+            	<p>No post found for this 
+            		<span style="color:black; font-weight: 500;">{{tag.title}}</span> tag, 
+            	</p>                
+            	{% endif %}
+            	<div class="blog_left_sidebar">
                 	<!-- Post -->
                 	{% for postbytag in postsbytag %}                    
                 	<article class="blog_style1">
