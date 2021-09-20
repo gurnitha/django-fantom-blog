@@ -8,17 +8,23 @@ from . models import *
 
 
 # Class:PostCreationForm
-class PostCreationForm(foms.ModelForm):
+class PostCreationForm(forms.ModelForm):
 
-	class Meta:
-		model = Post
+    class Meta:
+        model = Post
+        widgets = {
+            'title':forms.TextInput(attrs={
+            				'class':'single-input',
+            				'placeholder':'Enter your title'}),
+            'content':forms.Textarea(attrs={
+            				'class':'single-input',
+            				'placeholder':'Enter your content'}),
+        }
 
-	# Refer to Post model's fields
-	fields = [
-		'title',
-		'category',
-		'content', 
-		'image',
-		'tag'
-	]
+        fields = [
+            'title',
+            'category',
+            'content',
+            'image',
 
+        ]

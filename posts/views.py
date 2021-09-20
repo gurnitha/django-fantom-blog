@@ -3,8 +3,11 @@
 # Django modules
 from django.shortcuts import render, get_object_or_404
 from django.views.generic import (
-		TemplateView, ListView,
-		DetailView)
+		TemplateView, 
+        ListView,
+		DetailView, 
+        CreateView)
+from .forms import PostCreationForm
 
 # Loclas
 from .models import Post, Category, Tag
@@ -67,3 +70,9 @@ class PostsByTag(ListView):
         context['tag'] = self.tag
         return context
 
+
+# Class:CreatePostView
+class CreatePostView(CreateView):
+    template_name = 'posts/create-post.html'
+    form_class = PostCreationForm
+    model = Post

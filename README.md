@@ -359,6 +359,14 @@ https://github.com/gurnitha/django-fantom-blog
         new file:   posts/forms.py
 
 
+#### 30. Post form 2 -Display PostCreationForm in a Template File
+
+        modified:   README.md
+        modified:   posts/forms.py
+        modified:   posts/urls.py
+        modified:   posts/views.py
+        new file:   templates/posts/create-post.html
+
 
 
 
