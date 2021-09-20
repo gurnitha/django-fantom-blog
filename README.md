@@ -344,6 +344,14 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/users/login.html
 
 
+#### 28. Logout - Log outing user
+
+        modified:   README.md
+        modified:   users/urls.py
+
+        NOTE: see settings.py
+        LOGOUT_REDIRECT_URL = '/'
+
 
 
 
