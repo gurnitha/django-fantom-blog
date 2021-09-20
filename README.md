@@ -341,7 +341,9 @@ https://github.com/gurnitha/django-fantom-blog
 
 #### 27. Login 3 - Adding warning to logged in user if he/she tried to log in again
 
-      
+        modified:   templates/users/login.html
+
+
 
 
 
