@@ -3,6 +3,7 @@
 # Django modules
 from django.shortcuts import render
 from django.views.generic import CreateView
+from django.contrib.auth.views import LoginView, LogoutView
 
 # Locals
 from users.forms import RegisterForm
@@ -15,3 +16,9 @@ class RegisterView(CreateView):
     template_name = 'users/register.html' #1
     form_class = RegisterForm #2
     success_url = '/' #3
+
+
+# Class:UserLoginView
+class UserLoginView(LoginView):
+    template_name = 'users/login.html'
+

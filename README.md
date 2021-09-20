@@ -304,6 +304,23 @@ https://github.com/gurnitha/django-fantom-blog
         modified:   templates/users/register.html
 
 
+#### 25. Login 1 - Create Login templates, Views, Urls
+
+        modified:   README.md
+        new file:   templates/users/login.html
+        modified:   users/urls.py
+        modified:   users/views.py
+
+        NOTE:
+        1. It worked.
+        2. But it returning this:
+           http://127.0.0.1:8000/accounts/profile/
+
+           Page not found (404)
+           Request Method: GET
+           Request URL:    http://127.0.0.1:8000/accounts/profile/
+        3. NEXT > solving it by adding to settings.py: 
+           LOGIN_REDIRECT_URL = '/'
 
 
 
