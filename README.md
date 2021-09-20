@@ -353,7 +353,10 @@ https://github.com/gurnitha/django-fantom-blog
         LOGOUT_REDIRECT_URL = '/'
 
 
+#### 29. Post form 1 - Creating PostCreationForm
 
+        modified:   README.md
+        new file:   posts/forms.py
 
 
 
