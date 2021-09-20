@@ -323,6 +323,25 @@ https://github.com/gurnitha/django-fantom-blog
            LOGIN_REDIRECT_URL = '/'
 
 
+#### 26. Login 2 - adding LOGIN_REDIRECT_URL = '/' to settings.py
+
+        modified:   README.md
+        modified:   config/settings.py
+
+        NOTE PROBLEM:
+        1. After logging in, user is still able
+           to show the login form, it should not
+           be like that.
+        2. There should be a warning to tell the
+           user that he/she has been logging in
+
+
+        NEXT > adding the warning to logged in user
+
+
+#### 27. Login 3 - Adding warning to logged in user if he/she tried to log in again
+
+      
 
 
 

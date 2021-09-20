@@ -25,12 +25,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-            	<!-- Register: Header -->
+            	<!-- Login: Header -->
             	<h3 
             		class="mb-30 title_color"
             		style="text-align:center">Login
             	</h3>
-            	<!-- Register: Form -->
+            	<!-- Login: Form -->
             	<form method="post">
             		{% csrf_token %}
 					<!-- Show error from the form -->
@@ -76,7 +76,6 @@
 	            		class="genric-btn info"
 	            		value="Login">
             	</form>
-
             </div>
             <!-- Aside -->
             {% include '../posts/sight_side.html' %}
