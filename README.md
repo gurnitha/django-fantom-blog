@@ -368,6 +368,15 @@ https://github.com/gurnitha/django-fantom-blog
         new file:   templates/posts/create-post.html
 
 
+#### 31. Post form 2 - Saving the Posts
+
+        modified:   README.md
+        new file:   media/uploads/blog-3_UqRdKSF.jpg
+        new file:   media/uploads/blog-3_f1Y7Jpy.jpg
+        new file:   media/uploads/blog-3_luw3fq5.jpg
+        new file:   media/uploads/blog-4_xTfNE6f.jpg
+        modified:   posts/views.py
+
 
 
 
